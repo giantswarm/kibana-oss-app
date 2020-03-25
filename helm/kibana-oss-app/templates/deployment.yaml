@@ -14,7 +14,7 @@ spec:
 {{ toYaml .Values.updateStrategy | indent 4 }}
   selector:
     matchLabels:
-      app: kibana
+      app: kibana-oss-app
       release: {{ .Release.Name | quote }}
   template:
     metadata:
