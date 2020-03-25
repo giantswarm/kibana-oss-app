@@ -19,7 +19,7 @@ spec:
   template:
     metadata:
       labels:
-        app: kibana
+        app: kibana-oss-app
         release: {{ .Release.Name | quote }}
         {{- range $key, $value := .Values.labels }}
         {{ $key }}: {{ $value | quote }}
