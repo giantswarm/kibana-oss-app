@@ -1,0 +1,14 @@
+apiVersion: v1
+appVersion: v0.1
+description: "Kibana OSS app from Elastic adjusted to run on Giant Swarm clusters"
+home: https://github.com/elastic/helm-charts/tree/master/kibana
+name: kibana-oss-app
+maintainers:
+- name: Elastic
+  url: https://github.com/elastic/helm-charts/tree/master/kibana
+- name: Giant Swarm applications team
+  url: https://github.com/giantswarm/kibana-oss-app
+sources:
+- https://github.com/elastic/helm-charts/tree/master/kibana
+- https://github.com/giantswarm/kibana-oss-app
+version: [[ .Version ]]
