@@ -1,14 +1,14 @@
 version: 2.1
 orbs:
-  architect: giantswarm/architect@0.4.5
+  architect: giantswarm/architect@0.6.0
 
 workflows:
   package-and-push-chart-on-tag:
     jobs:
       - architect/push-to-app-catalog:
-          name: "package and push kibana-oss-app chart"
-          app_catalog: "giantswarm-incubator-catalog"
-          app_catalog_test: "giantswarm-incubator-test-catalog"
+          name: push-kibana-oss-app-to-app-catalog
+          app_catalog: "giantswarm-playground-catalog"
+          app_catalog_test: "giantswarm-playground-test-catalog"
           chart: "kibana-oss-app"
           # Trigger job on git tag.
           filters:
