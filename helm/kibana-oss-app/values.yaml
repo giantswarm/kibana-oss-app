@@ -113,6 +113,7 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
+# optional if removed fully from values.yaml file
 readinessProbe:
   failureThreshold: 3
   initialDelaySeconds: 10
