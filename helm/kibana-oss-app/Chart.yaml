@@ -11,5 +11,5 @@ maintainers:
 sources:
 - https://github.com/elastic/helm-charts/tree/master/kibana
 - https://github.com/giantswarm/kibana-oss-app
-icon: https://user-images.githubusercontent.com/273727/96255015-85e87280-0fb6-11eb-83c5-5d4060b87119.png
+icon: https://s.giantswarm.io/app-icons/1/png/kibana-oss-app-light.png
 version: [[ .Version ]]
